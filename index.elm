@@ -17,5 +17,5 @@ update msg model =
 
 view model =
   div []
-    [ text ("testando")
+    [ text ("testando a Elm")
     ]
