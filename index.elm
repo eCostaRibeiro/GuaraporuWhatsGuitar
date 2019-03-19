@@ -1,5 +1,5 @@
 import Browser
-import Html exposing (Html, , div, text)
+import Html exposing (Html, div, text)
 
 
 main =
