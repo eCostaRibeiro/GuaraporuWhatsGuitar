@@ -27,49 +27,93 @@
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
 
     <title>Guaraporu</title>
 
     <style media="screen">
+      body{
+        height: 100%;
+        margin: 0;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        background-color: ghostwhite;
+
+      }
       nav{
         text-align: center;
       }
-
       article{
         margin-top: 1em;
         text-align: center;
       }
       #logoImg{
-        width: 20em;
+        margin-bottom: 1em;
+        width: 16em;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 0 0 1em 1em;
+        padding-bottom: 1em;
       }
-
       #down{
-        width: 15em;
-        height: 0.5em;
-        border-style: solid;
-        border-color: #8c8b8b;
-        border-width: 0.1em 0 0 0;
-        border-radius: 2em;
+        width: 17em;
+        height: 0.4em;
+        border-color: ghostwhite;
+        border-width: 0 0 0.1em 0;
+        border-radius: 0.3em;
       }
       #base{
-        width: 14em;
-        height: 0.02em;
-        border-style: groove;
+        width: 13em;
+        height: 0.4em;
+        border-color: ghostwhite;
+        border-width: 0 0 0.1em 0;
+        border-radius: 0.3em;
+      }
+      hr{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
       }
       .YouTube{
         width: 35em;
+        height: 20em;
         margin: auto;
-        align-content: center;
         align-items: center;
-        border: slategray;
-        border-style: groove;
-        border-radius: 1.5em;
+        background-color: ghostwhite;
+        border-radius: 1.2em;
         padding: 0.4em 0.4em 0.1em 0.4em;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
       iframe{
         border-radius: 1em;
+        width: 35em;
+        height: 19.8em;
+      }
+      .contato{
+        text-align: center;
+      }
+      .linkWhats{
+        display: block;
+        transition-duration: 0.2s;
+        margin: auto;
+        width: 5em;
+        height: 2em;
+        text-decoration: none;
+        font-size: 1em;
+        background-color: rgb(0, 179, 44);
+        padding: 0.4em;
+        border-radius: 0.3em;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .linkWhats:hover{
+        width: 5em;
+        height: 2.2em;
+        font-size: 1.2em;
+        color: black;
+        border-color: ivory;
+        transition-duration: 0.2s;
+      }
+      #whatsLogo{
+          font-size:2em;
+          color:white;
       }
 
     </style>
@@ -84,12 +128,14 @@
     <section id="home">
 
       <article class="YouTube">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/DVIpmRv4_T4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/DVIpmRv4_T4" frameborder="0" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </article>
       <hr id="down"/>
       <hr id="base"/>
       <article class="contato">
-        <a
+        <a href="http://bit.ly/WhatsGuitarcomGuaraporu" class="linkWhats">
+          <i class='fab fa-whatsapp' id="whatsLogo"></i>
+        </a>
       </article>
     </section>
   </body>
