@@ -34,58 +34,62 @@
 
     <style media="screen">
       body{
-        height: 100%;
         margin: 0;
+        display: grid;
         font-family: 'Josefin Sans', sans-serif;
         color: black;
-        background-color: ghostwhite;
+        background-color: white;
 
       }
       nav{
+        display: block;
+        width: 20%
+        position: absolute;
         text-align: center;
+        z-index: 5;
       }
       article{
-        margin-top: 1em;
+        display: flex;
+        position: relative;
         text-align: center;
       }
       #logoImg{
-        margin-bottom: 1em;
-        width: 16em;
+        margin-bottom: 1rem;
+        width: 20vw;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-        border-radius: 0 0 1em 1em;
-        padding-bottom: 1em;
+        padding-bottom: 1rem;
+        z-index: 6;
       }
       #down{
-        width: 17em;
-        height: 0.4em;
+        width: 50%;
+        height: 0.4rem;
         border-color: ghostwhite;
-        border-width: 0 0 0.1em 0;
-        border-radius: 0.3em;
+        border-width: 0 0 0.1rem 0;
+        border-radius: 0.3rem;
       }
       #base{
-        width: 13em;
-        height: 0.4em;
+        width: 30%;
+        height: 0.4rem;
         border-color: ghostwhite;
-        border-width: 0 0 0.1em 0;
-        border-radius: 0.3em;
+        border-width: 0 0 0.1rem 0;
+        border-radius: 0.3rem;
       }
       hr{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
       }
       .YouTube{
-        width: 35em;
-        height: 20em;
+        width: 60vw;
         margin: auto;
-        align-items: center;
+        text-align: center;
         background-color: ghostwhite;
-        border-radius: 1.2em;
-        padding: 0.4em 0.4em 0.1em 0.4em;
+        z-index: 4;
+        padding: 0.4rem 0.4rem 0.1rem 0.4rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
       iframe{
-        border-radius: 1em;
-        width: 35em;
-        height: 19.8em;
+
+        width: 60vw;
+        height: 26vw;
       }
       .contato{
         text-align: center;
@@ -94,25 +98,25 @@
         display: block;
         transition-duration: 0.2s;
         margin: auto;
-        width: 5em;
-        height: 2em;
+        width: 5rem;
+        height: 2rem;
         text-decoration: none;
-        font-size: 1em;
+        font-size: 1rem;
         background-color: rgb(0, 179, 44);
-        padding: 0.4em;
-        border-radius: 0.3em;
+        padding: 0.4rem;
+        border-radius: 0.3rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
       .linkWhats:hover{
-        width: 5em;
-        height: 2.2em;
-        font-size: 1.2em;
+        width: 5rem;
+        height: 2.2rem;
+        font-size: 1.2rem;
         color: black;
         border-color: ivory;
         transition-duration: 0.2s;
       }
       #whatsLogo{
-          font-size:2em;
+          font-size:2rem;
           color:white;
       }
 
